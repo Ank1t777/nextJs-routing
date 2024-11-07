@@ -5,9 +5,10 @@
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-
-    border-radius: 1px solid #2c2c2c;
+    border-bottom: 1px solid #2c2c2c; /* Adds only a border without rounded corners */
 }
+
+
 
 .links {
     flex: 1;

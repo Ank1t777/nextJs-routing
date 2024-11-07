@@ -8,13 +8,13 @@ const navbar = () => {
                 <p>Next.js</p>
                 <ul className={styles.links}>
                     <Link href='/'>
-                        <li>Home</li>
+                        <li>Home🏠</li>
                     </Link>
                     <Link href='/about'>
-                        <li>About</li>
+                        <li>About🐻</li>
                     </Link>
                     <Link href='/contact'>
-                        <li>Contact</li>
+                        <li>Contact📞</li>
                     </Link>
                 </ul>
             </nav>
@@ -22,4 +22,4 @@ const navbar = () => {
     );
 };
 
-export default Navbar;
+export default navbar;
